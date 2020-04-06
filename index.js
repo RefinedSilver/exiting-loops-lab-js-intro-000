@@ -17,7 +17,7 @@ let keepGoing = (array, changeValue, skipValue) => {
 			array[i] = changeValue;
 		}
 	}
-  return changeValue;
+  return array;
 }
 
 let findBy = (array, findFn) => {
