@@ -26,5 +26,5 @@ let findBy = (array, findFn) => {
 			 return array[i];
 		}
 	}
-  return array;
+  return null;
 }
